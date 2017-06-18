@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{45d41acc-2c3c-43d2-bc10-02aa73ffc7c7}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)BlendStates.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Camera.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ColorHelper.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)DirectionalLight.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)DrawableGameComponent.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)FirstPersonCamera.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)FpsComponent.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Game.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameClock.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameComponent.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameException.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)GamePadComponent.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameTime.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Grid.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)KeyboardComponent.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Light.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)MatrixHelper.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Mesh.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Model.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ModelMaterial.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)MouseComponent.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)OrthographicCamera.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)pch.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)PerspectiveCamera.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)PointLight.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ProxyModel.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)RasterizerStates.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)RenderStateHelper.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)RenderTarget.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)SamplerStates.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ServiceContainer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Skybox.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)SpotLight.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)StreamHelper.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utility.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)VectorHelper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)BlendStates.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Camera.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ColorHelper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)DirectionalLight.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)DirectXHelper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)DrawableGameComponent.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)FirstPersonCamera.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)FpsComponent.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Game.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameClock.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameComponent.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameException.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GamePadComponent.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameTime.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Grid.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)KeyboardComponent.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Light.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MatrixHelper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Mesh.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Model.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ModelMaterial.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MouseComponent.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)OrthographicCamera.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)pch.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)PerspectiveCamera.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)PointLight.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ProxyModel.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)RasterizerStates.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)RenderStateHelper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)RenderTarget.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)RTTI.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SamplerStates.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ServiceContainer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Skybox.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SpotLight.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)StreamHelper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utility.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)VectorHelper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)VertexDeclarations.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)packages.config" />
+  </ItemGroup>
+</Project>
